@@ -1,0 +1,83 @@
+body{
+  background-image: url(paisaje.jpg);
+  background-size:  100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: monospace;
+}
+form{
+  width: 300px;
+  margin: auto;
+  background:  rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+h2{
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+#consul{
+  background: #31384A;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+#consul:hover {
+  cursor: pointer;
+}
+#agregar{
+  background: #31384A;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+#agregar:hover {
+  cursor: pointer;
+}
+#consulG{
+  background: #31384A;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+#consulG:hover {
+  cursor: pointer;
+}
+#borrar{
+  background: #31384A;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+#borrar:hover {
+  cursor: pointer;
+}
+#modi{
+  background: #31384A;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+#modi:hover {
+  cursor: pointer;
+}
+#usu{
+  background: #31384A;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+#usu:hover {
+  cursor: pointer;
+}

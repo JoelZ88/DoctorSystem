@@ -1,0 +1,63 @@
+
+body{
+    background-color: aliceblue;
+}
+form{
+    display: grid;
+    grid-template: auto/1fr;
+    /*background: red;*/
+}
+.title{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.datos{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+
+input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+
+
+/*body{
+  background-image: url(paisaje.jpg);
+  background-size:  100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: monospace;
+}
+
+form{
+  width: 450px;
+  margin: auto;
+  background: rgba(133, 193, 233, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+h2{
+  color: #800000;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+*/

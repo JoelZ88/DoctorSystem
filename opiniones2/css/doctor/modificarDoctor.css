@@ -1,0 +1,82 @@
+body{
+    display: grid;
+    grid-template: auto/ 1fr;
+    background-color: aliceblue;
+    grid-gap: 1em;
+}
+.title{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.doctor{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.edad{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.sexo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.estado{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+/*.calle{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.ingresar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}*/
+.demas{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.texto{
+    font-size: 15px;
+    padding: 5px;
+    color: black;
+    background-color: hsl(180, 20%, 90%);
+    text-align: center;
+    margin:0.5em;
+    border-radius: 10px;
+}
+img{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+.boton{
+    
+    color: black;
+    background-color:lawngreen; 
+    border-radius: 10px;
+    border-right-color: black;
+    border:solid black;
+    margin-top: 10px;
+    font-size: 1.5em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}

@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/doctor/registrarDoctor.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="registrarDoctor.php" method="POST" onsubmit="return ingresar();">
+            <header>
+                    <h1>Crea una cuenta</h1>
+                    <h2>Es gratis y siempre lo sera</h2>
+                    <img src="../../img/usuario-hombre.png" alt="">
+                </header>
+            
+                <section class="doctor">
+                    <div>
+                        <input id="nombre" type="text" class="texto" placeholder="Nombre" name="nombre" required>
+                        <input id="materno" type="text" class="texto" placeholder="Apellido Materno" name="materno"required>
+                    </div>
+            
+                    <div>
+                        <input id="paterno" type="text" class="texto" placeholder="Apellido Paterno" name="paterno"required>
+                        <input id="telefono" type="text" class="texto" placeholder="telefono" name="telefono"required>
+                    </div>
+                </section>
+
+                <section class="sexo">
+                    <div>
+                        <input id="edad" type="text" placeholder="edad" class="texto" name="edad" required>  
+                    </div>
+                    <div>
+                        <label for="">
+                            sexo:
+                            <input id="sexo" type="radio"name="sexo" value="Hombre" required>Hombre
+                            <input id="sexo" type="radio"name="sexo" value="Mujer" required>Mujer
+                        </label>
+                    </div>
+            
+                <section class="estadoDoctor">
+                    <div>
+                        <label for="">
+                            <select id="estado" class="texto" name="estado" value="Estado"required>
+                                <option value="jalisco">jalisco</option>
+                                <option value="colima">colima</option>
+                                <option value="michoacan">michoacan</option>
+                                <option value="nuevo leon">nuevo leon</option>
+                                <option value="yucatan">yucatan</option>
+                            </select>
+                        </label>
+                        <label for=""> 
+                                <select id="ciudad" class="texto" name="ciudad" id=""required>
+                                    <option value="guzman">cd guzman</option>
+                                    <option value="guadalajara">Guadalajara</option>
+                                    <option value="tuxpan">tuxpan</option>
+                                </select>
+                            </label>
+                    </div>
+                    <div>
+                        <input id="calle" type="text" class="texto" name="calle" placeholder="Calle de la ciudad"required>
+                        <input id="numero" type="text" class="texto" name="numero" placeholder="Numero de calle"required>
+                    </div>
+                </section>
+            
+                <section class="ingresarDoctor">
+                    <div>
+                        <input id="correo" type="email" class="texto" placeholder="Correo electronico" name="correo"required>
+                        <input id="password" type="password" class="texto" placeholder="contraseña" name="password"required>
+                    </div>
+                    <div>
+                        <input type="submit" class="boton" name="boton" value="Registrar">
+                    </div>
+                </section>
+                <a href="../../index.html">Regresar</a>
+    </form>
+    <script src="validarDoctor.js"></script>
+</body>
+
+</html>
+

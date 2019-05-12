@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+}
+form{
+    display: grid;
+    grid-template: auto/1fr;
+    /*background: red;*/ 
+}
+.title{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.paciente{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.sexo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.vive{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.correo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.texto{
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.boton{
+    margin-top: 20px;
+    font-size: 30px;
+    border-radius:10px;
+    background-color: limegreen;
+}

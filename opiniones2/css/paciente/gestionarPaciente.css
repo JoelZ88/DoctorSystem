@@ -1,0 +1,86 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: grid;
+    grid-template: 4em 3em 1fr 4em/1fr;
+    grid-gap: 1em;
+    /*min-height: 100vh;*/
+}
+/**************************/
+.header{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background: #FF5733;
+}
+.nav{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.sec1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+footer{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+/**************************/
+.menu{
+    padding-left: 0;
+    margin-top:0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: hsl(180, 45%, 50%);
+    display: flex;
+}
+li{
+    flex: auto;
+    text-align: center;
+   /* border-right: 1px solid black;*/
+   list-style:  none;
+
+}
+/*-------------------------------------*/
+/*Estas eran las lineas chidas */
+nav li{
+    position: relative;
+}
+nav li ul{
+    position: absolute;
+}
+/*________________________________*/
+a{
+    color:white;
+    text-decoration: none;
+    line-height: 3;
+    display: block;
+    font-size: 15px;
+}
+/*Menu y sub Menu*/
+/*estilos generales*/
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li ul {
+    display: none;
+}
+nav li:hover ul{
+    display: block;
+}
+/*Primer nivel*/
+nav a:hover{
+    background-color:hsl(180, 35%, 50%);
+}
+/*segundo nivel*/
+nav li li {
+    background-color: hsl(180, 45%, 50%);
+    width: 200px;
+}
+nav > ul > li > ul{
+    top:100%;
+}

@@ -1,0 +1,80 @@
+body{
+    background-color: hsl(100, 50%, 80%);
+    /*background-color: hsl(180, 55%, 95%);*/
+}
+form{
+    margin: 0;
+
+    display: grid;
+    grid-template: auto / 1fr;
+    grid-gap: 1em;
+}
+ header{
+   
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-self: center;
+}
+.doctor{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.sexo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.estadoDoctor{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.ingresarDoctor{
+   
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.boton{
+    
+    color: black;
+    background-color:lawngreen; 
+    border-radius: 10px;
+    border-right-color: black;
+    border:solid black;
+    margin-top: 10px;
+    font-size: 1.5em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.texto{
+    font-size: 15px;
+    padding: 5px;
+    color: black;
+    background-color: hsl(180, 20%, 90%);
+    text-align: center;
+    margin:0.5em;
+    border-radius: 10px;
+}
+img{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+a{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}

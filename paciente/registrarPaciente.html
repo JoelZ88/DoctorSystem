@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../../css/paciente/registrarPaciente.css">
+    <script src="./validarPaciente.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <form action="./registrarPaciente.php" method="post" onsubmit="ingresar()">
+            <header>
+                    <h1>Crea una cuenta</h1>
+                    <h2>Es gratis y siempre lo sera</h2>
+                    <img src="../../img/usuario-hombre.png" alt="">
+                </header>
+            
+                <section class="paciente">
+                    <div>
+                        <input id="nombre" type="text" class="texto" placeholder="Nombre" name="nombre" required>
+                        <input id="materno" type="text" class="texto" placeholder="Apellido Materno" name="materno" required>
+                        
+                    </div>
+            
+                    <div>
+                        <input id="paterno" type="text" class="texto" placeholder="Apellido Paterno" name="paterno"required>
+                        <input id="telefono" type="text" class="texto" placeholder="telefono" name="telefono"required
+                        >
+                    </div>
+                </section>
+
+                <section class="sexo">
+                    <div><label for="">Edad:<input id="edad" type="text" class="texto" name="edad" required
+                    
+                    > </label> 
+                        
+                    </div>
+                    <div>
+                        <label for="">
+                            sexo:
+                            <input id="sexo" type="radio"name="sexo" value="hombre"required>Hombre
+                            <input id="sexo" type="radio"name="sexo" value="mujer" required>Mujer
+                        </label>
+                    </div>
+
+                </section>
+
+                <section id="sangre" class="sangre" name="sangre" required>
+                    <label for=""> Tipo de Sangre: 
+                            <select class="texto" id="" name="sangre">
+                                    <option value="a+">a+</option>
+                                    <option value="a-">a-</option>
+                                    <option value="o+">o+</option>
+                                    <option value="o-">a-</option>
+                            </select>
+                    </label>
+                    
+                </section>
+            
+                <section class="estadoPaciente">
+                    <div>
+                        <label for="">
+                            <select id="estado" class="texto" name="estado" id="" required>
+                                <option value="jalisco">jalisco</option>
+                                <option value="">colima</option>
+                                <option value="">michoacan</option>
+                                <option value="">nuevo leon</option>
+                                <option value="">yucatan</option>
+                            </select>
+                        </label>
+                        <label for=""> 
+                                <select id="ciudad" class="texto" name="ciudad" required>
+                                    <option value="cd guzman">cd guzman</option>
+                                    <option value="guadalajara">Guadalajara</option>
+                                    <option value="tuxpan">tuxpan</option>
+                                </select>
+                            </label>
+                    </div>
+                    <div>
+                        <input id="calle" type="text" class="texto" placeholder="Calle de la ciudad" name="calle" required>
+                        <input id="numero" type="text" class="texto" placeholder="Numero" name="numero" required>
+                    </div>
+                </section>
+            
+                <section class="ingresarPaciente">
+                    <div>
+                        <input id="correo" type="email" class="texto" placeholder="Correo electronico" name="correo" required>
+                        <input id="password" type="password" class="texto" placeholder="contraseña" name="password"required>
+                    </div>
+                    <div>
+                        <input class="boton" type="submit" value="Registrar" name="boton">
+                    </div>
+                </section>
+                <a href="../../index.html">Regresar</a>     
+    </form>
+</body>
+</html>

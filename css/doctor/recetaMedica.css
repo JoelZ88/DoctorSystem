@@ -1,0 +1,35 @@
+body{
+    background: red;
+    display: grid;
+    grid-template: auto/1fr 1fr;
+}
+.formulario {
+    
+    display: grid;
+    grid-template: auto/1fr 2fr;
+}
+.lastName{
+    /*background: pink;*/
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.receta{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    justify-items: center;
+}
+.texto{
+    font-size:15px;
+    margin:10px 10px 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.boton{
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: azure;
+    border-radius: 10px;
+}
